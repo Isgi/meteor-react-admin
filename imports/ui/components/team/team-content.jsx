@@ -12,6 +12,9 @@ export default class TeamContent extends Component {
     }
   }
 
+  componentDidMount() {
+    this.handleAddBase();
+  }
 
   makeId()
   {
@@ -39,10 +42,8 @@ export default class TeamContent extends Component {
   handleDelete(e) {
     for (let i = 0 ; i < this.state.bases.length ; i++) {
       if (this.state.bases[i].id == e){
-        console.log(i)
         this.state.bases.splice(i,1);
         this.setState({bases: this.state.bases})
-        console.log(this.state.bases)
       }
     }
   }

@@ -5,7 +5,7 @@ import { LayoutHeaderProjectDetail } from '../../themes/header-project-detail';
 import TableTabs from './table-tabs';
 const { Content } = Layout;
 
-export default class ProjectDetail extends Component {
+export default class TeamDetail extends Component {
 
     constructor() {
         super();

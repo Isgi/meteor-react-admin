@@ -100,7 +100,7 @@ export class Base extends Component {
         }
 
         <div style={{width: '100px', height: '100px', background: this.state.color, borderRadius: '6px', margin: '16px 16px 3px 16px', color: '#fff'}}>
-          <Link to="/project/1">
+          <Link to="/team/1">
             <div style={{fontSize:'65px', color:'#fff', textAlign:'center', lineHeight: '100px'}}>
               {this.state.icon == '' ?
                 this.state.alias :

@@ -8,6 +8,7 @@
     "antd": "^2.9.0",
     "babel-plugin-import": "^1.1.1",
     "babel-runtime": "^6.23.0",
+    "css-loader": "^0.28.1",
     "faker": "^4.1.0",
     "fixed-data-table": "^0.6.3",
     "history": "^4.6.1",
@@ -16,7 +17,8 @@
     "react": "^15.4.2",
     "react-addons-pure-render-mixin": "^15.4.2",
     "react-addons-update": "^15.5.2",
-    "react-data-grid": "^2.0.31",
+    "react-data-grid": "git@github.com:tranquilize/react-data-grid-css-fix.git",
+    "react-data-grid-addons": "git@github.com:tranquilize/react-data-grid-addons-css-fix.git",
     "react-dom": "^15.4.2",
     "react-router": "^4.0.0",
     "react-router-dom": "^4.0.0"
